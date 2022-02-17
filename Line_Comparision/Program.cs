@@ -36,9 +36,13 @@ namespace UC1_Cartesian
             {
                 Console.WriteLine("Two Lines are Equal");
             }
+            else if (length2 > length1)
+            {
+                Console.WriteLine("line two is greater than line one");
+            }
             else
             {
-                Console.WriteLine("Two Lines are not Equal");
+                Console.WriteLine("line two is less than line one");
             }
         }
     }
